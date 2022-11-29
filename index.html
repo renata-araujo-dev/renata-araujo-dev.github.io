@@ -1,32 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Renata Araujo - CV</title>
 
-  <link rel="stylesheet" href="style.css">
+  <!-- Ícone -->
+  <link rel="icon" href="img/icon.png">
 
+  <!-- Google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="resume-contents">
     <section class="left-section">
       <section class="left-section-content">
+        
+        <!--Início "Perfil"-->
         <div class="profile">
           <img class="profile-image" src="img/profile-image.png" alt="Profile image">
           <p class="name">Renata Araujo</p>
           <p class="profession">Desenvolvedora de Software</p>
         </div>
+
+        <!--Início "Contato"-->
         <div class="contact-info">
           <p class="left-title">CONTATO</p>
           <ul>
-            <li><i class="fa fa-phone"></i>+55 (83) 99999-8888</li>
-            <li><i class="fa fa-envelope"></i>renata.araujo.dev@gmail.com</li>
-            <li><i class="fa fa-globe"></i>link.do.linkedin</li>
-            <li><i class="fa fa-github"></i>renata-araujo-dev</li>
+            <li><a class="links" target="_blank" href="tel:+5583999998888"><i class="fa fa-phone"></i>+55 (83) 99999-8888</a></li>
+            <li><a class="links" target="_blank" href="mailto:renata.araujo.dev@gmail.com"><i class="fa fa-envelope"></i>renata.araujo.dev@gmail.com</a></li>
+            <li><a class="links" target="_blank" href="https://www.linkedin.com/in/renata-araujo-840943258/"><i class="fa fa-linkedin"></i>linkedin.com/in/renata-araujo-840943258</a></li>
+            <li><a class="links" target="_blank" href="https://github.com/renata-araujo-dev"><i class="fa fa-github"></i>renata-araujo-dev</a></li>
           </ul>
         </div>
+
+        <!--Início "Habilidades"-->
         <div class="skills">
           <p class="left-title">HABILIDADES</p>
           <ul>
@@ -39,17 +56,21 @@
         </div>
       </section>
     </section>
+
     <section class="right-section">
       <div class="right-section-contents">
+
+        <!--Início "Sobre Mim"-->
         <section class="about gap">
           <div class="right-title">SOBRE MIM</div>
           <p class="about-me-contents">
-            Escrever aqui sobre mim. Descrição das minhas aividades nesse cargo e nessa empresa aqui.Lorem ipsum dolor sit amet.<br>
-            <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-            <br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+            Olá, me chamo Renata e posso desenvolver boas soluções para você!<br>
+            <br>Recentemente decidi migrar de carreira e me dedicar a algo que sempre amei... a tecnologia. Por essa razão, pretendo dedicar integralmente meu tempo para aprender cada vez mais sobre a programação e desenvolvimento.<br>
+            <br>Atualmente estou avançando os meus conhecimentos e por isso pretendo me tornar aluna da EBAC atráves da Jornada Dev e conquistar a tão sonhada primeira oportunidade de ingressar no mercado de trabalho.
           </p>
         </section>
-        </div>
+
+        <!--Início "Experiências"-->
       <section class="experience gap">
         <div class="right-title">EXPERIÊNCIA</div>
         <div class="experience-contents">
@@ -95,6 +116,8 @@
           </div>
         </div>
       </section>
+
+      <!--Início "Formações"-->
       <section class="education gap">
         <div class="right-title">FORMAÇÕES</div>
         <div class="education-contents">
@@ -132,6 +155,8 @@
           </div>
         </div>
       </section>
+
+      <!--Início "Certificações"-->
       <section class="awards gap">
         <div class="right-title">CERTIFICAÇÕES</div>
         <div class="awards-contents">
@@ -187,8 +212,14 @@
           </div>
         </div>
       </section>
+      </div>
+
+      <!--Observação-->
+      <div class="note">
+        <p>Observação: Parte das informações contidas nesse currículo são fictícias. Modelo criado para estudo.</p>
+      </div>
+
     </section>
   </main>
 </body>
 </html>
-<!-- Infelizmente eu fiz o git push origin HEAD diretamente na main, por isso estou fazendo essa alteração para poder fazer o processo novamente e realizar o pull request, peço a compreensão -->
